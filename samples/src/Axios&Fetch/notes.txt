@@ -1,0 +1,8 @@
+| Method               | Success Condition | Failure Condition | Use Case                    |
+| -------------------- | ----------------- | ----------------- | --------------------------- |
+| `Promise.all`        | All succeed       | Any fails         | All-or-nothing (checkout)   |
+| `Promise.allSettled` | Always resolves   | Never rejects     | Partial success (dashboard) |
+| `Promise.race`       | First settled     | First settled     | Timeout handling            |
+| `Promise.any`        | First success     | All fail          | Fallback APIs               |
+| `Promise.resolve`    | Always success    | –                 | Wrap values                 |
+| `Promise.reject`     | –                 | Always fail       | Simulate error              |
