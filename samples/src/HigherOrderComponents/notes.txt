@@ -1,0 +1,9 @@
+HOC -   is a function that takes a component as input and returns a new enhanced component.
+It’s a pattern for reusing component logic without repeating code.
+
+const EnhancedComponent = higherOrderComponent(WrappedComponent);
+
+WrappedComponent → the original component
+higherOrderComponent → function that adds extra props, behavior, or logic
+EnhancedComponent → the new component with added features
+
