@@ -5,7 +5,7 @@ import PasswordMasking from './PasswordMasking'
 const Forms = () => {
   return (
     <div>
-        <FormInputs/>
+        {/* <FormInputs/> */}
         <PasswordMasking/>
     </div>
   )
